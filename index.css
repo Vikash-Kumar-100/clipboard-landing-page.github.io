@@ -1,0 +1,409 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Poppins&display=swap');
+
+.attribution { font-size: 18px; text-align: center; font-family: poppins; background-color: hsl(201deg 100% 84%); color:black;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html{
+      font-size:  10px;
+    }
+
+    h1{
+      font-size: 4.2rem;
+      font-family: outfit,sans-serif,serif;
+    }
+    h2{
+      font-size: 3.2rem;
+      font-family: outfit,sans-serif,serif;
+    }
+    h3 {
+      font-size: 2.6rem;
+      font-family: outfit,sans-serif,serif;
+    }
+
+    h1,h2,h3{
+      color:hsl(210, 10%, 33%);
+      font-weight: bolder;
+    }
+    p{
+      color:hsl(201, 11%, 66%);
+      font-weight: normal;
+    }
+
+    .primaryTxt{
+      font-size: 2rem;
+      font-family: poppins,sans-serif,serif;
+    }
+    .secondryTxt{
+      font-size:1.8rem;
+      font-family: poppins,sans-serif,serif;
+    }
+    .tertiaryTxt{
+      font-size: 1.6rem;
+      font-family: poppins,sans-serif,serif;
+    }
+    a{
+      font-weight: bold;
+      text-align: center;
+      outline: none;
+    }
+
+    .top-div{
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      background-image: url(images/bg-header-desktop.png);
+      background-repeat: no-repeat;
+      background-size: 100% 60%;
+    }
+    .logo{
+      width: 130px;
+      height: 130px;
+      /*background-color: red;*/
+      margin-bottom: 40px;
+
+      background-image: url(images/logo.svg);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+    .txt-area{
+      width: 60%;
+      text-align: center;
+    }
+    .txt-area p{
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
+    .top-div a,.end a{
+      margin: 0 10px 20px 10px;
+      display: inline-block;
+      width: 200px;
+      height: 50px;
+      border-radius: 50px;
+      line-height: 50px;
+      color:white;
+      word-spacing: 5px;
+      text-decoration: none;
+      font-weight: 400px;
+    }
+    .ios{
+      background-color: hsl(171, 66%, 44%);
+      box-shadow: 0 0 5px hsl(171, 66%, 44%); 
+    }
+    .mac{
+      background-color: hsl(233, 100%, 69%);
+      box-shadow: 0 0 5px hsl(233, 100%, 69%); 
+
+    }
+
+    .div-2{
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+     .top-heading{
+      width: 100%;
+      min-height: 25vh;
+      /*background-color: dodgerblue;*/
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+
+      margin-bottom: 40px;
+    }
+    .top-heading p{
+      margin-top: 10px;
+      width: 60%;
+    }
+
+    .div-2 .img-area{
+      width: 100%;
+      min-height: 70vh;
+      /*background-color: wheat;*/
+      display: flex;
+    }
+    .computer{
+      width: 50%;
+      min-width: 600px;
+      min-height: 70vh;
+      background-image:url(images/image-computer.png);
+
+      background-repeat: no-repeat;
+      background-size: 90% 100%;
+      background-position: -3.0rem 0;
+    }
+    .feature-area{
+      width: 50%;
+      min-height: 70vh;
+      background-color: transparent;
+    }
+    .feature-area h3{
+      margin-top: 4.0rem;
+    }
+    .feature-area p{
+      width: 70%;
+      min-width: 50%;
+      margin-top: .5rem;
+    }
+
+
+    .div-3{
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .ipad-img{
+      width: 100%;
+      min-height: 70vh;
+      background:url(images/image-devices.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+
+    .div-4{
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .services{
+      width: 100%;
+      min-height: 40vh;
+      /*background-color: coral;*/
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+
+      flex-wrap: wrap;
+    }
+    
+    .card{
+      height: 260px;
+      width: 300px;
+      text-align: center;
+      /*background-color: #fff;*/
+
+    }
+    .card p{
+      margin-top: 10px;
+    }
+    .card-img{
+      width: 50px;
+      height: 40px;
+      margin: 20px 0 20px 120px;
+      /*background-color: hotpink;*/
+
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100% 100%;
+    }
+
+    .img-list{
+      background-image: url(images/icon-blacklist.svg);
+    }
+    .img-text{
+      background-image: url(images/icon-text.svg);
+    }
+    .img-preview{
+      background-image: url(images/icon-preview.svg);
+      width: 60px;
+      height: 40px;
+    }
+
+    .company{
+      width: 100%;
+      min-height: 30vh;
+      /*background-color: lawngreen;*/
+      display: flex;
+      gap: 20px 60px;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .company div{
+      width: 160px;
+      height: 140px;
+      /*background-color: darkviolet;*/
+
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+    .google{
+      background-image: url(images/logo-google.png);
+    }
+    .ibm{
+      background-image: url(images/logo-ibm.png);
+    }
+    .microsoft{
+      background-image: url(images/logo-microsoft.png);
+    }
+    .hp{
+      background-image: url(images/logo-hp.png);
+    }
+    .vectorGraphics{
+      background-image: url(images/logo-vector-graphics.png);
+    }
+
+    .end{
+      width: 100%;
+      min-height: 50vh;
+      /*background-color: wheat;*/
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .footer{
+      width: 100%;
+      min-height: 20vh;
+      background-color: hsla(201, 21%, 86%,50%);
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .footer-logo{
+      width: 20%;
+      min-height: 20vh;
+      /*background-color: tomato;*/
+      background-image: url(images/logo.svg);
+      background-repeat: no-repeat;
+      background-size: 60px 60px;
+      background-position: center;
+    }
+    .footer-links{
+      width: 60%;
+      min-height: 20vh;
+      /*background-color: gold;*/
+
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+    .link{
+      /*width: 0px;*/
+      margin-left:30px;
+      transition: 0.5s all;
+      cursor: pointer;
+    }
+    .link:hover{
+      color: hsl(171, 66%, 44%);
+    }
+    .social-media{
+      width: 20%;
+      min-height: 100px;
+      /*background-color: lawngreen;*/
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap:20px;
+    }
+    .face,.bird,.insta{
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      width: 30px;
+      height: 30px;
+    }
+    .face{
+      background-image: url(images/icon-facebook.svg);
+    }
+    .bird{
+      background-image: url(images/icon-twitter.svg);
+    }
+    .insta{
+      background-image: url(images/icon-instagram.svg);
+    }
+
+
+    @media only screen and (max-width: 887px){
+      .img-area{
+        flex-direction: column;
+      }
+      .computer{
+        min-width: auto;
+        width: 90%;
+        align-self: center;
+        background-size: contain;
+        background-position: center;
+      }
+
+      .feature-area{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .feature-card{
+        /*flex:1;*/
+        width: 320px;
+        min-height: 200px;
+        /*background-color: red;*/
+
+        text-align: center;
+
+      }
+      .feature-card p{
+        text-align: center;
+        width: 100%;
+      }
+
+      .footer{
+        flex-direction: column;
+      }
+      .footer-link{
+        width: 100%;
+      }
+      .social-media{
+        width: 100%;
+        flex-wrap: nowrap;
+      }
+
+    }
+
+    @media only screen and (max-width: 605px){
+        .footer-links{
+          flex-direction: column;
+          gap:10px 0 ;
+        }
+        .link{
+          margin: 0;
+        }
+
+        .txt-area{
+          width: 90%;
+        }
+        .top-heading p {
+          width: 90%;
+        }
+
+    }
